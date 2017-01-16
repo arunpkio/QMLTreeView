@@ -5,6 +5,7 @@ This application is to demonstrate the use of exposing custom model to QML to be
 
 Example Usage in QML:
 
+```
  TreeView {
         anchors.fill: parent
         TableViewColumn {
@@ -12,6 +13,7 @@ Example Usage in QML:
         }
         model: sandBoxModel
     }
+ ```
 
 
 ![alt tag](https://cloud.githubusercontent.com/assets/4667704/21970707/1be6c824-dbcf-11e6-9f62-a69aa8fcb369.png)
